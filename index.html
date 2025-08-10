@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sage's Eatery</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="no-print">
+    <h2>🍴 Sage's Eatery</h2>
+    <div class="cart">
+      <img src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart.png" alt="Cart" />
+      <span id="cart-count">0</span>
+    </div>
+    <button id="menu-return-button">View Menu</button>
+  </header>
+
+  <section class="search-filter">
+   <form>
+    <input type="text" placeholder="Search dishes..." id="search-input">
+   </form>
+  </section>
+
+  <section class="categories">
+    <button class="active menu-filter">All</button>
+    <button class="menu-filter">Rice</button>
+    <button class="menu-filter">Soups</button>
+    <button class="menu-filter">Snacks</button>
+    <button class="menu-filter">Drinks</button>
+    <button class="menu-filter">Others</button>
+  </section>
+
+  <section class="menu" id="menu">
+    <!-- Sample Dish Card -->
+  </section>
+  
+  <section id="cart-section">
+   <div id="cart-header" class="no-print">
+    <img src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart.png" alt="Cart" />
+    <h3>Cart</h3>
+   </div>
+   
+   <div id="cart-total-top">
+    
+   </div>
+
+   <div id="cart-total2">
+    <div id="cart-list">
+     
+    </div>
+    <div id="total-div">
+     <p>Total</p>
+     <p id="cart-total"></p>
+    </div>
+   </div>
+   
+   <button class="cart-btn no-print">Submit Order</button>
+   <button class="cart-btn no-print">Print</button>
+   <p id="success-message" class="no-print"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
