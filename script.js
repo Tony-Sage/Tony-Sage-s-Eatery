@@ -5,178 +5,145 @@ const menuData = [
     description: "Spicy jollof rice served with grilled chicken.",
     price: "₦2500",
     image: "images/jollof.jpeg",
-    category: "Rice"
+    category: "Rice",
+    tag: 0
   },
   {
     name: "Egusi & Fufu",
     description: "Rich egusi soup served with soft fufu.",
     price: "₦3000",
     image: "images/egusi.jpeg",
-    category: "Soups"
+    category: "Soups",
+    tag: 1
   },
   {
     name: "Puff Puff",
     description: "Soft, fluffy, and sweet deep-fried dough balls.",
     price: "₦500",
     image: "images/puffpuff.jpeg",
-    category: "Snacks"
+    category: "Snacks",
+    tag: 2
   },
   {
     name: "Palm Wine",
     description: "Traditional natural palm sap drink.",
     price: "₦1500",
     image: "images/palmwine.jpeg",
-    category: "Drinks"
+    category: "Drinks",
+    tag: 3
   },
   {
     name: "Ofada Rice & Ayamase",
     description: "Local ofada rice served with green pepper sauce.",
     price: "₦3500",
     image: "images/ofada.jpeg",
-    category: "Rice"
+    category: "Rice",
+    tag: 4
   },
   {
     name: "Moi Moi",
     description: "Steamed bean pudding wrapped in leaves.",
     price: "₦1500",
     image: "images/moimoi.jpeg",
-    category: "Others"
+    category: "Others",
+    tag: 5
   },
   {
     name: "Ogbono & Pounded Yam",
     description: "Draw soup made with ogbono seeds served with pounded yam.",
     price: "₦3100",
     image: "images/ogbono.jpeg",
-    category: "Soups"
+    category: "Soups",
+    tag: 6
   },
   {
     name: "Fresh Orange Juice",
     description: "Freshly squeezed orange juice.",
     price: "₦1000",
     image: "images/orangejuice.jpeg",
-    category: "Drinks"
+    category: "Drinks",
+    tag: 7
   },
   {
     name: "Chin Chin",
     description: "Crispy, sweet, deep-fried dough cubes.",
     price: "₦400",
     image: "images/chinchin.jpeg",
-    category: "Snacks"
+    category: "Snacks",
+    tag: 8
   },
   {
     name: "White Rice & Stew",
     description: "Steamed white rice served with spicy tomato stew.",
     price: "₦2000",
     image: "images/whiterice_stew.jpeg",
-    category: "Rice"
+    category: "Rice",
+    tag: 9
   },
   {
     name: "Okra Soup & Garri",
     description: "Fresh okra soup with assorted meats served with garri.",
     price: "₦2800",
     image: "images/okra.jpeg",
-    category: "Soups"
+    category: "Soups",
+    tag: 10
   },
   {
     name: "Suya",
     description: "Spicy grilled beef skewers with pepper mix.",
     price: "₦2000",
     image: "images/suya.jpeg",
-    category: "Others"
+    category: "Others",
+    tag: 11
   },
   {
     name: "Bottled Water",
     description: "Refreshing clean drinking water.",
     price: "₦300",
     image: "images/water.jpeg",
-    category: "Drinks"
+    category: "Drinks",
+    tag: 12
   },
   {
     name: "Spring Rolls",
     description: "Crispy fried rolls filled with vegetables.",
     price: "₦1000",
     image: "images/springrolls.jpeg",
-    category: "Snacks"
+    category: "Snacks",
+    tag: 13
   },
   {
     name: "Yam Porridge",
     description: "Soft yam chunks cooked in rich palm oil sauce.",
     price: "₦2500",
     image: "images/yamporridge.jpeg",
-    category: "Others"
+    category: "Others",
+    tag: 14
   },
   {
     name: "Fried Rice & Turkey",
     description: "Delicious fried rice with succulent turkey.",
     price: "₦3000",
     image: "images/friedrice_turkey.jpeg",
-    category: "Rice"
+    category: "Rice",
+    tag: 15
   },
   {
     name: "Efo Riro & Amala",
     description: "Spinach stew with assorted meats served with amala.",
     price: "₦3200",
     image: "images/efo.jpeg",
-    category: "Soups"
+    category: "Soups",
+    tag: 16
   },
   {
     name: "Chapman",
     description: "Refreshing Nigerian cocktail with a fruity twist.",
     price: "₦1200",
     image: "images/chapman.jpeg",
-    category: "Drinks"
+    category: "Drinks",
+    tag: 17
   },
-  /*
-  {
-    name: "Meat Pie",
-    description: "Flaky pastry stuffed with minced meat and vegetables.",
-    price: "₦800",
-    image: "images/meatpie.jpeg",
-    category: "Snacks"
-  },
-  {
-    name: "Shawarma",
-    description: "Grilled chicken wrapped with veggies in pita bread.",
-    price: "₦2500",
-    image: "images/shawarma.jpeg",
-    category: "Others"
-  },
-  {
-    name: "Banga Soup & Starch",
-    description: "Palm nut soup served with starch.",
-    price: "₦3500",
-    image: "images/banga.jpeg",
-    category: "Soups"
-  },
-  {
-    name: "Fried Plantain & Beans",
-    description: "Sweet plantains with peppered beans porridge.",
-    price: "₦2000",
-    image: "images/beans.jpeg",
-    category: "Others"
-  },
-  {
-    name: "Zobo Drink",
-    description: "Chilled hibiscus drink with pineapple flavor.",
-    price: "₦700",
-    image: "images/zobo.jpeg",
-    category: "Drinks"
-  },
-  {
-    name: "Gala Sausage Roll",
-    description: "Baked snack roll filled with spiced sausage.",
-    price: "₦500",
-    image: "images/gala.jpeg",
-    category: "Snacks"
-  },
-  {
-    name: "Coconut Rice",
-    description: "Fragrant rice cooked in creamy coconut milk.",
-    price: "₦2800",
-    image: "images/coconutrice.jpeg",
-    category: "Rice"
-  }
-  */
 ];
 
 // sets the cart count to the number of items in the cartData array
@@ -204,9 +171,9 @@ calculateCartTotal();
 
 // creates new cart item object in the cart item array
 let cartItem
-function updateCart(index){
- selectedDishIndex = parseInt(index)
- selectedDish = menuData[selectedDishIndex]
+function updateCart(tag){
+ selectedDishIndex = parseInt(tag)
+ selectedDish = menuData[tag]
  const servings = prompt(`How many servings of ${selectedDish.name} are you ordering?`)
  const dishQuantity = parseInt(servings)
  if (isNaN(dishQuantity)){
@@ -217,9 +184,8 @@ function updateCart(index){
    name: selectedDish.name,
    price: selectedDish.price,
    quantity: dishQuantity,
-   tag: index
+   tag: tag
   }
-  
   let exists = false;
   for (let i = 0; i < cartData.length; i++) {
     if (cartData[i].tag === cartItem.tag) {
@@ -319,31 +285,30 @@ document.querySelectorAll('.cart-btn').forEach(
    cartData.length = 0;
    //code for submit button
    if (cartButton.innerText == "Submit Order"){
-    i = 10;
-    successMessageTimer = setInterval(() => {
-     if (i > 0){
-      document.querySelector("#success-message").style.display = "block"
-      document.querySelector('#success-message').innerHTML = `Your order have been submitted. <br> Print receipt before it clears in <span class='timer'>${i}</span> seconds`
-      i--
-     } else {
-      clearInterval(successMessageTimer)
-     }
-    }, 1000)
-    setTimeout(() => {
-     document.querySelector("#success-message").style.display = "none"
-    }, 11000)
-    setTimeout(() => {
-     clearCartTotalAndCount()
+    confirmPrint = confirm("Would you like to print receipt?")
+  
+    if (confirmPrint) {
+     document.querySelector('#success-message').style.display = "block"
+     document.querySelector('#success-message').innerHTML = "Thanks for your patronage!"
+     window.print()
+     setTimeout(() => {
+     clearCartTotalAndCount();
      renderCart();
-    }, 11000)
+      }, 6000)
+    } else {
+     document.querySelector('#success-message').style.display = "block"
+     document.querySelector('#success-message').innerHTML = "Thanks for your patronage!"
+     clearCartTotalAndCount();
+     renderCart();
+    }
+      
     setTimeout(() => {
-     document.querySelector('#success-message').innerText = ""
-    }, 11000)
-   } 
+     document.querySelector('#success-message').style.display = "none"
+    }, 10000)
+   }
    // code for print button
    else 
    {
-    clearInterval(successMessageTimer)
     confirmOrder = confirm("Place order and print receipt?")
     if (confirmOrder){
      document.querySelector('#success-message').innerHTML = "Your order has been submitted and your receipt will be printed"
@@ -415,7 +380,8 @@ function applyFilter(category){
 // renders menu by looping through each dish object of the array passed as argument 
 function renderMenu(filteredMenu){
  document.querySelector('#menu').innerHTML = ""
- filteredMenu.forEach((dish, index) => {
+ filteredMenu.forEach((dish) => {
+  const tag = dish.tag
   const card = document.createElement("div");
   card.className = "card";
 
@@ -427,11 +393,11 @@ function renderMenu(filteredMenu){
    </div>
     <div class="card-footer">
     <span class="price">${dish.price}</span>
-    <button class="add-btn" data-index="${index}">Add ➕</button>
+    <button class="add-btn" data-index="${tag}">Add ➕</button>
    </div>`;
  
   card.querySelector(".add-btn").addEventListener("click", () => {
-   updateCart(index);
+   updateCart(tag);
    updateCartCount();
    renderCart();
    calculateCartTotal();
@@ -478,5 +444,4 @@ function searchMenu(searchTerm) {
     dish.category.toLowerCase().includes(searchTerm.toLowerCase())
   );
   renderMenu(results);
-  console.log("Hey")
 }
