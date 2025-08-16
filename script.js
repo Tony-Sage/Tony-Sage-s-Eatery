@@ -174,7 +174,7 @@ let cartItem
 function updateCart(tag){
  selectedDishIndex = parseInt(tag)
  selectedDish = menuData[tag]
- const servings = prompt(`How many servings of ${selectedDish.name} are you ordering?`)
+ const servings = prompt(`How many servings of ${selectedDish.name} are you ordering??`)
  const dishQuantity = parseInt(servings)
  if (isNaN(dishQuantity)){
   alert('Please enter a valid number. Alphabets, symbols and emojis are not allowed')
